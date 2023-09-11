@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson 5 Assignment</title>
+
+        <style>
+            body {
+                background: navy;
+                color: white;
+            }
+
+            .button-style {
+                color: navy;
+                font-size: x-large;
+            }
+
+            div {
+                margin-top: 2rem;
+                background: gray;
+                width: 15%;
+                height: 3rem;
+                border: 2pt solid gold;
+                color: white;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Bank Application</h1>
+
+        <div>
+            <p id="acct-balance"></p>
+        </div>
+
+        <h2>Application Commands:</h2>
+        <p>Select one the following letters to proceed.</p>
+
+        <ul>
+            <li>B = Balance</li>
+            <li>D = Deposit</li>
+            <li>W = Withdraw</li>
+            <li>Q = Quit</li>
+        </ul>
+
+        <button onclick="bankApp()" class="button-style">Click to enter selection</button>
+
+        <script src="lesson5-assignment.js" charset="UTF-8"></script>
+    </body>
+</html>
